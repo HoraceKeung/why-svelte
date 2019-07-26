@@ -9,11 +9,15 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+	@apply text-second
 }
 *, *:before, *:after {
 	box-sizing: border-box;
 	margin: 0;
 	-webkit-tap-highlight-color: transparent;
+}
+.grad {
+	background-image: linear-gradient(theme('colors.prime'),theme('colors.flash'));
 }
 button:focus {
 	@apply outline-none
