@@ -224,4 +224,16 @@ const resources = [
 		]
 	}
 ]
+
+fetch('https://us-central1-web-scraper-nodejs.cloudfunctions.net/scraper', {
+	method: 'POST',
+	headers: {
+		'Content-Type': 'application/json'
+	},
+	body: JSON.stringify({
+		urls: resources.map(resource => resource.link)
+	})
+}).then(response => response.json()).then(r => {
+	console.log(JSON.stringify(r, null, 4))
+})
 </script>
