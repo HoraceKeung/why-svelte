@@ -224,7 +224,8 @@ const resources = [
 		]
 	}
 ]
-
+// https://us-central1-why-svelte-js.cloudfunctions.net/scraper
+// http://localhost:5000/why-svelte-js/us-central1/scraper
 fetch('https://us-central1-why-svelte-js.cloudfunctions.net/scraper', {
 	method: 'POST',
 	headers: {

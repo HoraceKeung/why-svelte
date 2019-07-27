@@ -26,7 +26,7 @@ const scrapeMetatags = urls => {
 
 exports.scraper = functions.https.onRequest((request, response) => {
 	cors(request, response, async () => {
-		const body = JSON.parse(request.body)
+		const body = request.body
 		const data = await scrapeMetatags(body.urls)
 		response.send(data)
 	})
