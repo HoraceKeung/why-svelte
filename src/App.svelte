@@ -225,7 +225,7 @@ const resources = [
 	}
 ]
 
-fetch('https://us-central1-web-scraper-nodejs.cloudfunctions.net/scraper', {
+fetch('https://us-central1-why-svelte-js.cloudfunctions.net/scraper', {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json'
