@@ -24,10 +24,10 @@ const scrapeMetatags = urls => {
 	return Promise.all(requests)
 }
 
-exports.scraper = functions.https.onRequest((request, response) => {
-	cors(request, response, async () => {
-		const body = request.body
+exports.scraper = functions.https.onRequest((req, res) => {
+	cors(req, res, async () => {
+		const body = req.body
 		const data = await scrapeMetatags(body.urls)
-		response.send(data)
+		res.send(data)
 	})
 })
