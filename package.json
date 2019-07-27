@@ -26,7 +26,7 @@
 		"dev": "run-p start:dev autobuild watch:tailwind",
 		"start": "sirv public --single",
 		"start:dev": "sirv public -p 3000 --single --dev",
-		"live": "npm run build && firebase deploy",
+		"live": "npm run build && firebase deploy --only hosting",
 		"add": "git add . && git commit -m add && git push && npm run live"
 	}
 }
