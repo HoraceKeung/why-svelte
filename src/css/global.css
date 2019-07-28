@@ -22,3 +22,13 @@ html {
 button:focus {
 	@apply outline-none
 }
+.loader {
+	border: 0.25rem solid theme('colors.second-10');
+	border-top: 0.25rem solid theme('colors.second');
+	animation: spin 0.75s linear infinite;
+	@apply rounded-full w-6 h-6
+}
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
