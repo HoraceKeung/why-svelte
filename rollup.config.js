@@ -1,5 +1,6 @@
 import svelte from 'rollup-plugin-svelte';
 import resolve from 'rollup-plugin-node-resolve';
+import replace from 'rollup-plugin-replace';
 import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
@@ -20,6 +21,9 @@ export default {
 		alias({
 			resolve: ['.js', '.mjs', '.html', '.svelte'],
 			'~': path.join(__dirname, './src')
+		}),
+		replace({
+			'scraperUrl': JSON.stringify(production ? 'https://us-central1-why-svelte-js.cloudfunctions.net/scraper' : 'http://localhost:5000/why-svelte-js/us-central1/scraper')
 		}),
 		svelte({
 			// enable run-time checks when not in production

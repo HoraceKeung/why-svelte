@@ -224,9 +224,7 @@ const resources = [
 		]
 	}
 ]
-// https://us-central1-why-svelte-js.cloudfunctions.net/scraper
-// http://localhost:5000/why-svelte-js/us-central1/scraper
-fetch('https://us-central1-why-svelte-js.cloudfunctions.net/scraper', {
+fetch(scraperUrl, {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json'
@@ -234,7 +232,7 @@ fetch('https://us-central1-why-svelte-js.cloudfunctions.net/scraper', {
 	body: JSON.stringify({
 		urls: resources.map(resource => resource.link)
 	})
-}).then(response => response.json()).then(r => {
+}).then(res => res.json()).then(r => {
 	console.log(JSON.stringify(r, null, 4))
 })
 </script>
