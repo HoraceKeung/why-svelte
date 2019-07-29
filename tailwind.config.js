@@ -14,7 +14,7 @@ module.exports = {
 		},
 		borderColor: theme => ({
 			...theme('colors'),
-			default: theme('colors.second')
+			default: theme('colors.second-10')
 		}),
 		minWidth: {...defaultConfig.theme.minWidth,
 			'8': '2rem'

@@ -1,13 +1,14 @@
 <div class="pt-16">
 	<div class="bg-white h-16 w-full fixed left-0 top-0 shadow-md z-50">
 		<div class="container h-full flex">
-			<div class="my-auto mr-2 sm:mr-4"><img class="h-8 sm:h-12 min-w-8 cursor-pointer" src="icon.png" alt="logo"></div>
-			<h1 class="my-auto text-xl sm:text-3xl whitespace-no-wrap font-bold">Why Svelte</h1>
+			<div class="my-auto mr-2 sm:mr-4"><img class="h-8 sm:h-12 min-w-8 cursor-pointer" src="icon.png" alt="logo" on:click={() => { searchWord = '' }}></div>
+			<h1 class="my-auto text-xl sm:text-3xl whitespace-no-wrap font-bold hidden sm:block">Why Svelte</h1>
+			<input class="rounded border my-auto ml-auto p-2 focus:outline-none focus:border-prime" bind:value={searchWord} placeholder="Search">
 		</div>
 	</div>
 	<div class="container pt-8">
 		<div class="flex flex-wrap -mx-2">
-			{#each resources as r}
+			{#each searchedResources as r}
 			<div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 px-2 mb-6">
 				<div class="shadow-md grad w-full h-full rounded flex flex-col overflow-hidden">
 					<a target="_blank" href={r.url}><div class="h-48 bg-contain bg-center bg-no-repeat" style={`background-image: url(${r.image})`}/></a>
@@ -17,7 +18,7 @@
 						<div class="flex flex-wrap -mx-1 mb-4">
 							{#each r.tags as t}
 							<div class="px-1">
-								<button class="px-1 capitalize bg-flash text-white rounded text-sm">{t}</button>
+								<button class="px-1 capitalize bg-flash text-white rounded text-sm" on:click={() => { searchWord = t }}>{t}</button>
 							</div>
 							{/each}
 						</div>
@@ -243,4 +244,6 @@ fetch(scraperUrl, {
 		return {...resource, ...r[index]}
 	})
 })
+let searchWord = ''
+$: searchedResources = resources.filter(r => JSON.stringify(r).toLowerCase().includes(searchWord.toLowerCase()))
 </script>
