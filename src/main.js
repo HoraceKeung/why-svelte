@@ -161,6 +161,16 @@ const app = new App({
 				]
 			},
 			{
+				title: 'Svelte your way',
+				url: 'https://medium.com/@dudousxd/svelte-your-way-ad50f9455553',
+				date: '7 May 2019',
+				tags: [
+					'text',
+					'react',
+					'angular'
+				]
+			},
+			{
 				title: 'Svelte 3 Front-End Framework Moves Reactivity into the JavaScript Language, Q&A with Rich Harris',
 				url: 'https://www.infoq.com/news/2019/05/svelte-3-interview-rich-harris/',
 				date: '6 May 2019',
