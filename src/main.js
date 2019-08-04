@@ -3,7 +3,6 @@ import firebase from 'firebase/app'
 import 'firebase/database'
 if (!firebase.apps.length) {
 	firebase.initializeApp({
-		apiKey: 'AIzaSyC_uezrhAymyajDQVUXqdoul_6KqjZChLk',
 		databaseURL: 'https://why-svelte-js.firebaseio.com',
 		projectId: 'why-svelte-js'
 	})
