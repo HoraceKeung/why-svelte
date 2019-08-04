@@ -44,17 +44,22 @@
 <script>
 import {set, get} from 'idb-keyval'
 
-export let resources
-
+export let fireDb
+let resources = []
 let totalScrape = 0
 const init = async () => {
 	const resourcesInDb = await get('resources')
-	if (resourcesInDb) {
-		resources = resources.map(resource => {
-			const resourceInDb = resourcesInDb.find(x => x.url === resource.url)
-			return resourceInDb ? {...resource, ...resourceInDb} : resource
-		})
-	}
+	if (resourcesInDb) resources = resourcesInDb
+	resources = await fireDb.ref('resources').once('value').then(res => res.val().sort((a, b) => {
+		return new Date(b.date) - new Date(a.date)
+	}).map(r => {
+		const resourceInDb = resourcesInDb ? resourcesInDb.find(x => x.url === r.url) : null
+		return {...r, ...resourceInDb, date: new Intl.DateTimeFormat('en-GB', {
+			day: 'numeric',
+			month: 'long',
+			year: 'numeric'
+		}).format(new Date(r.date))}
+	}))
 	resources.forEach((resource, index) => {
 		if (!resource.scrapeTime || (new Date() - new Date(resource.scrapeTime)) / 1000 / 60 / 60 / 24 > 30) {
 			totalScrape++
