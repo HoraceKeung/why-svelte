@@ -1,5 +1,5 @@
 const functions = require('firebase-functions')
-const cors = require('cors')({origin: ['http://localhost:3000', 'https://why-svelte-js.web.app']})
+const cors = require('cors')({origin: ['http://localhost:3000', 'https://why-svelte-js.web.app', 'https://why-svelte-js.firebaseapp.com']})
 const cheerio = require('cheerio')
 const fetch = require('node-fetch')
 
