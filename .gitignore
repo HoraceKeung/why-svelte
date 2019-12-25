@@ -1,7 +1,8 @@
+/node_modules/
+/public/build/
+
 .DS_Store
-node_modules
-public/bundle.*
-public/global.css
+
 # Logs
 logs
 *.log
