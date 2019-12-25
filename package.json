@@ -22,6 +22,7 @@
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
 		"start": "sirv public",
-		"live": "npm run build && firebase deploy --only hosting"
+		"live": "npm run build && firebase deploy --only hosting",
+		"add": "git add . && git commit -m add && git push && npm run live"
 	}
 }

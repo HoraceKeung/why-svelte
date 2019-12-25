@@ -6,6 +6,13 @@ const resources = [{
 "description": "The world of front end frameworks is always evolving. For years it was dominated by jQuery and Backbone, but these days we hear most talk about React and Vue. However, there is another framework that hasn't been talked about so much, namely Svelte. Although this framework is actually three years old, it had a rebirth in April this year with the release of its third major version.",
 "image": "https://images.unsplash.com/photo-1555813456-94a3dd418cd3?w=1226&h=400&fit=crop&crop=edges"
 }, {
+"date" : "2019-12-20",
+"tags" : [ "video" ],
+"title" : "dotJS 2019 - Bertrand Chevrier - Svelte",
+"url" : "https://www.youtube.com/watch?v=pnFA178yDdc",
+"description": "Filmed at https://2019.dotjs.io on December 5-6, 2019 in Paris. More talks on https://dotconferences.com/talks Svelte is a new generation of web framework, i...",
+"image": "https://i.ytimg.com/vi/pnFA178yDdc/maxresdefault.jpg"
+}, {
 "date" : "2019-12-19",
 "tags" : [ "text", "sapper", "react" ],
 "title" : "Is svelte.js the user-friendly developer framework?",
