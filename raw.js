@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2019-12-26",
+"tags" : [ "text", "vue", "react", "angular", "jquery", "backbone" ],
+"title" : "Why I moved from React to Svelte and others will follow",
+"url" : "https://www.mikenikles.com/blog/why-i-moved-from-react-to-svelte-and-why-others-will-follow/",
+"description": "A post about my React experience, why Svelte impressed me and code snippets to compare React with Svelte.",
+"image": "https://assets.mikenikles.com/2019/12/aryan-singh-vTBqLytx6SQ-unsplash-1.jpg"
+}, {
 "date" : "2019-12-23",
 "tags" : [ "text", "vue", "react", "jquery", "backbone" ],
 "title" : "New kid on the block",
