@@ -13,6 +13,13 @@ const resources = [{
 "description": "The world of front end frameworks is always evolving. For years it was dominated by jQuery and Backbone, but these days we hear most talk about React and Vue. However, there is another framework that hasn't been talked about so much, namely Svelte. Although this framework is actually three years old, it had a rebirth in April this year with the release of its third major version.",
 "image": "https://images.unsplash.com/photo-1555813456-94a3dd418cd3?w=1226&h=400&fit=crop&crop=edges"
 }, {
+"date" : "2019-12-22",
+"tags" : [ "text", "react" ],
+"title" : "Consuming an API in Svelte",
+"url" : "https://dev.to/blazephoenix/consuming-an-api-in-svelte-5181",
+"description": "Consuming an API in Svelte Tanmay Naik Dec 22 ・4 min read #javascript #sveltejs #webdev #beginners I'd been figuring out Svelte since a week now and saying that I've fallen in love with it would be an understatement. Everything is so much faster to do and easier to understand that you'll probably ...",
+"image": "https://dev.to/social_previews/article/225445.png"
+}, {
 "date" : "2019-12-20",
 "tags" : [ "video" ],
 "title" : "dotJS 2019 - Bertrand Chevrier - Svelte",
