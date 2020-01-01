@@ -264,6 +264,13 @@ const resources = [{
 "description": "Ramblings of Ryan Frazier: Programmer, Musician, and Educator",
 "image": "https://pianomanfrazier.com/img/new-web-tech-2019/compare.svg"
 }, {
+"date" : "2019-06-11",
+"tags" : [ "video", "react" ],
+"title" : "React vs Svelte in just 3 minutes!! Should you choose Svelte over React?",
+"url" : "https://www.youtube.com/watch?v=elJWiVrHIhY",
+"description": "A quick difference between React and Svelte. Should you choose Svelte over React? Should you switch your projects to Svelte? or Should you even learn it? Let...",
+"image": "https://i.ytimg.com/vi/elJWiVrHIhY/maxresdefault.jpg"
+}, {
 "date" : "2019-06-03",
 "tags" : [ "text", "sapper", "vue", "react", "angular", "nativescript" ],
 "title" : "Why Svelte might disrupt the JS framework space",
