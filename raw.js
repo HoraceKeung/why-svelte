@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2019-12-28",
+"tags" : [ "text", "vue", "react" ],
+"title" : "The basics of Svelte in under 3 minutes",
+"url" : "https://zeph.co/svelte",
+"description": "Simpler than React: check. More performant than React: check. Learn the basics of Svelte in less than 3 minutes.",
+"image": "https://zeph.co/assets/images/svelte/twitter.png"
+}, {
 "date" : "2019-12-26",
 "tags" : [ "text", "vue", "react", "angular", "jquery", "backbone" ],
 "title" : "Why I moved from React to Svelte and others will follow",
