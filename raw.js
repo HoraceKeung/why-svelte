@@ -108,6 +108,13 @@ const resources = [{
 "description": "I wrote an introduction about Svelte based on what I learn by following the official tutorial.",
 "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--dVJ-p302--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://i.imgur.com/Ee674Za.png"
 }, {
+"date" : "2019-10-03",
+"tags" : [ "text", "vue", "react", "angular" ],
+"title" : "CTO’s guide to Svelte – what can the rising frontend framework do for you?",
+"url" : "https://tsh.io/blog/svelte-framework/",
+"description": "Svelte is a rising JavaScript frontend framework with unique approach to app development. Learn its benefits and how it compares to React or Angular",
+"image": "https://tsh.io/wp-content/uploads/2019/10/svelte-javascript-frontend-framework_.jpg"
+}, {
 "date" : "2019-09-29",
 "tags" : [ "text", "vue", "react" ],
 "title" : "SvelteJS: The next big UI framework",
