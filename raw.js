@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-01-09",
+"tags" : [ "text", "jquery" ],
+"title" : "Write less, do more with Svelte",
+"url" : "https://johanronsse.be/2020/01/09/write-less-do-more-with-svelte/",
+"description": "A few days ago I watched Rich Harris’s talk at JSCamp. It offers a different perspective on Svelte than the talk I usually recommend when learning about Svelte – which is called Rethinking Reactivity. This ...",
+"image": "https://johanronsse.be/wp-content/themes/johanronsse2/images/avatar.png"
+}, {
 "date" : "2019-12-28",
 "tags" : [ "text", "vue", "react" ],
 "title" : "The basics of Svelte in under 3 minutes",
