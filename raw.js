@@ -1,6 +1,6 @@
 const resources = [{
 "date" : "2020-01-13",
-"tags" : [ "audio", "sapper" ],
+"tags" : [ "audio", "sapper", "react" ],
 "title" : "Why Bloomberg Choose Svelte and Sapper for many Graphics Projects - Julian Burgess",
 "url" : "https://learnwithus.simplecast.com/episodes/julian-burgess",
 "description": "Julien is a Web Developer with a passion for excellence in producing newsroom applications.",
