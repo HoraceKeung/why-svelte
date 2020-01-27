@@ -1,10 +1,17 @@
 const resources = [{
+"date" : "2020-01-26",
+"tags" : [ "text", "sapper", "vue", "react", "nativescript" ],
+"title" : "Why I Enjoy Svelte",
+"url" : "https://www.swyx.io/writing/svelte-why",
+"description": "Reasons I enjoy Svelte, despite not using it for work.",
+"image": "https://www.swyx.io/og_image/writing/svelte-why.png"
+}, {
 "date" : "2020-01-13",
 "tags" : [ "audio", "sapper", "react" ],
 "title" : "Why Bloomberg Choose Svelte and Sapper for many Graphics Projects - Julian Burgess",
 "url" : "https://learnwithus.simplecast.com/episodes/julian-burgess",
 "description": "Julien is a Web Developer with a passion for excellence in producing newsroom applications.",
-"image": "	https://cdn.simplecast.com/images/6b8a7493-eaea-49cc-865d-cadc53ba0e10/72a516d9-7c22-412d-b978-dca2718c9b98/1495662363artwork.jpg"
+"image": "https://cdn.simplecast.com/images/6b8a7493-eaea-49cc-865d-cadc53ba0e10/72a516d9-7c22-412d-b978-dca2718c9b98/1495662363artwork.jpg"
 }, {
 "date" : "2020-01-09",
 "tags" : [ "text", "jquery" ],
