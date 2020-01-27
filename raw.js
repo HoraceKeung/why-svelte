@@ -6,6 +6,13 @@ const resources = [{
 "description": "Reasons I enjoy Svelte, despite not using it for work.",
 "image": "https://www.swyx.io/og_image/writing/svelte-why.png"
 }, {
+"date" : "2020-01-21",
+"tags" : [ "text", "vue", "react", "angular" ],
+"title" : "Svelte - a recipe for a successful framework?",
+"url" : "https://areknawo.com/svelte-a-recipe-for-a-successful-framework/",
+"description": "Svelte is recently really popular. But why's that and is there some kind of a guideline for repeating its success?",
+"image": "https://areknawo.com/content/images/2020/01/Cover.png"
+}, {
 "date" : "2020-01-13",
 "tags" : [ "audio", "sapper", "react" ],
 "title" : "Why Bloomberg Choose Svelte and Sapper for many Graphics Projects - Julian Burgess",
