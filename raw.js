@@ -1,6 +1,6 @@
 const resources = [{
 "date" : "2020-02-10",
-"tags" : [ "audio", "sapper", "vue", "react" ],
+"tags" : [ "audio", "sapper", "vue", "react", "angular", "nativescript" ],
 "title" : "Author of Svelte and Sapper in Action - Mark Volkmann | Learn With Us",
 "url" : "https://learnwithus.simplecast.com/episodes/mark-volkmann",
 "description": "Mark Volkmann is a partner at Object Computing, Inc. (OCI) in St. Louis where he has provided software consulting and training since 1996. As a consultant, Mark has assisted many companies with JavaScript, Node.js, Svelte, React, Vue, Angular, and more.",
