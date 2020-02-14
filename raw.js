@@ -1,5 +1,12 @@
 const resources = [{
 "date" : "2020-02-10",
+"tags" : [ "text", "sapper", "vue", "react", "angular", "nativescript" ],
+"title" : "Getting Acquainted With Svelte, the New Framework on the Block",
+"url" : "https://css-tricks.com/getting-acquainted-with-svelte-the-new-framework-on-the-block/",
+"description": "For the last six years, Vue, Angular, and React have run the world of front-end component frameworks. Google and Facebook have their own sponsored...",
+"image": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/01/svelte-radiant.png"
+}, {
+"date" : "2020-02-10",
 "tags" : [ "audio", "sapper", "vue", "react", "angular", "nativescript" ],
 "title" : "Author of Svelte and Sapper in Action - Mark Volkmann | Learn With Us",
 "url" : "https://learnwithus.simplecast.com/episodes/mark-volkmann",
