@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-02-18",
+"tags" : [ "video", "sapper", "vue", "react", "angular", "nativescript" ],
+"title" : "Svelte, cybernetically enhanced web apps - Devlin Duldulao",
+"url" : "https://www.youtube.com/watch?v=kCB2WezkFwI",
+"description": "Learn this new JavaScript framework that has the goodness of both ReactJS and Vue.js. Svelte compiles your code to tiny, framework-less vanilla JS so that you...",
+"image": "https://i.ytimg.com/vi/kCB2WezkFwI/hqdefault.jpg"
+}, {
 "date" : "2020-02-10",
 "tags" : [ "text", "sapper", "vue", "react", "angular", "nativescript" ],
 "title" : "Getting Acquainted With Svelte, the New Framework on the Block",
