@@ -20,6 +20,13 @@ const resources = [{
 "description": "Mark Volkmann is a partner at Object Computing, Inc. (OCI) in St. Louis where he has provided software consulting and training since 1996. As a consultant, Mark has assisted many companies with JavaScript, Node.js, Svelte, React, Vue, Angular, and more.",
 "image": "https://cdn.simplecast.com/images/0068cc27-b27c-4dc0-a47e-302106beb254/4f9d342f-ada2-471a-9669-05750c365227/mark-volkmann.jpg"
 }, {
+"date" : "2020-01-28",
+"tags" : [ "video", "vue", "react" ],
+"title" : "KDS2020 - Svelte: Small, fast and fun front-ends - Eirik Vågeskar",
+"url" : "https://www.youtube.com/watch?v=cZnJojItD6Y",
+"description": "Svelte is a promising, novel approach to Javascript, designed for speed, short source files and tiny bundles. Among its many selling points are ease of learn...",
+"image": "https://i.ytimg.com/vi/cZnJojItD6Y/maxresdefault.jpg"
+}, {
 "date" : "2020-01-26",
 "tags" : [ "text", "sapper", "vue", "react", "nativescript" ],
 "title" : "Why I Enjoy Svelte",
