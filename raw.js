@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-02-25",
+"tags" : [ "video", "sapper", "vue", "react", "angular" ],
+"title" : "Intro to Svelte and Svelte Ecosystem - JavaScript and Friends Online Meetup - February 2020",
+"url" : "https://www.youtube.com/watch?v=XQi4kd-6SSQ",
+"description": "Svelte is an exciting, newer JavaScript framework that was designed from the ground up with compilation and developer experience in mind. Yet the compiler can be a black box - how can a tiny framework ship so many features? This talk is a deep dive into Svelte's compiler and runtime to demystify this brilliant approach to solving the tradeoff between DX and UX.",
+"image": "https://i.ytimg.com/vi/XQi4kd-6SSQ/hqdefault.jpg"
+}, {
 "date" : "2020-02-18",
 "tags" : [ "video", "sapper", "vue", "react", "angular", "nativescript" ],
 "title" : "Svelte, cybernetically enhanced web apps - Devlin Duldulao",
