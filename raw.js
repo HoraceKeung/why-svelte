@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-03-10",
+"tags" : [ "text", "sapper", "vue", "react", "angular", "ember", "nativescript" ],
+"title" : "Why Svelte is our choice for a large web project in 2020",
+"url" : "https://github.com/feltcoop/why-svelte",
+"description": "Svelte is a JavaScript framework for building user interfaces. Its compiler architecture enables amazing tradeoffs for UX and DX. Svelte might be worth your attention, especially if you pine for the web of yore and future.",
+"image": "https://avatars0.githubusercontent.com/u/58836706?s=400&v=4"
+}, {
 "date" : "2020-02-25",
 "tags" : [ "video", "sapper", "vue", "react", "angular" ],
 "title" : "Intro to Svelte and Svelte Ecosystem - JavaScript and Friends Online Meetup - February 2020",
