@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-03-12",
+"tags" : [ "audio", "sapper", "vue", "react", "angular" ],
+"title" : "Episode 402: Rich Harris on the Svelte Javascript Framework : Software Engineering Radio",
+"url" : "https://www.se-radio.net/2020/03/episode-402-rich-harris-on-the-svelte-javascript-framework/",
+"description": "Rich Harris, author of the Javascript module bundler Rollup, discusses with SE Radio’s Adam Conrad his Javascript framework Svelte as a high-performance alternative to mainstay frameworks such as React, Angular, and Vue. They begin with a brief overview of Svelte and how it came to be, then dive i...",
+"image": "https://www.se-radio.net/wp-content/uploads/2018/11/software-50th-anniversary-220x300.jpg"
+}, {
 "date" : "2020-03-10",
 "tags" : [ "text", "sapper", "vue", "react", "angular", "ember", "nativescript" ],
 "title" : "Why Svelte is our choice for a large web project in 2020",
