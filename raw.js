@@ -1,4 +1,18 @@
 const resources = [{
+"date" : "2020-03-25",
+"tags" : [ "text", "react", "angular", "jquery" ],
+"title" : "Have you tried Svelte?",
+"url" : "https://www.indiehackers.com/post/have-you-tried-svelte-5ab7bc5c8b",
+"description": "aka , How I learned to stop worrying and love javascript. I must say that in the past I have used vanilla js, jQuery, Angular, React on the front end fo...",
+"image": "https://storage.googleapis.com/indie-hackers.appspot.com/shareable-images/posts/5ab7bc5c8b"
+}, {
+"date" : "2020-03-22",
+"tags" : [ "video" ],
+"title" : "Tech A Day #9 - Svelte",
+"url" : "https://www.youtube.com/watch?v=hos57NmSaP8",
+"description": "Svelte is sooo cool. A framework-less framework that makes it easy to build component oriented UI code that works fast and has a minuscule bundle size.",
+"image": "https://i.ytimg.com/vi/hos57NmSaP8/hqdefault.jpg"
+}, {
 "date" : "2020-03-12",
 "tags" : [ "audio", "sapper", "vue", "react", "angular" ],
 "title" : "Episode 402: Rich Harris on the Svelte Javascript Framework : Software Engineering Radio",

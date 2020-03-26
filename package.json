@@ -6,13 +6,13 @@
 		"@rollup/plugin-node-resolve": "^7.1.1",
 		"postcss": "^7.0.27",
 		"postcss-load-config": "^2.1.0",
-		"rollup": "^2.1.0",
+		"rollup": "^2.2.0",
 		"rollup-plugin-commonjs": "^10.1.0",
-		"rollup-plugin-livereload": "^1.0.4",
+		"rollup-plugin-livereload": "^1.1.0",
 		"rollup-plugin-svelte": "^5.1.1",
 		"rollup-plugin-terser": "^5.3.0",
 		"svelte": "^3.20.1",
-		"svelte-preprocess": "^3.5.0",
+		"svelte-preprocess": "^3.6.0",
 		"tailwindcss": "^1.2.0"
 	},
 	"dependencies": {
