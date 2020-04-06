@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-04-04",
+"tags" : [ "text", "react" ],
+"title" : "The JavaScript Framework That Puts Web Pages on a Diet",
+"url" : "https://www.wired.com/story/javascript-framework-puts-web-pages-diet/",
+"description": "Svelte, created by a graphics editor for the New York Times, has attracted a following among programmers who want their pages to load faster.",
+"image": "https://media.wired.com/photos/5e8295c6798a15000821fe70/191:100/w_1280,c_limit/svelte-javascript-508482075.jpg"
+}, {
 "date" : "2020-03-25",
 "tags" : [ "text", "react", "angular", "jquery" ],
 "title" : "Have you tried Svelte?",
