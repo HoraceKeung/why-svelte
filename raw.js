@@ -1,10 +1,24 @@
 const resources = [{
+"date" : "2020-04-13",
+"tags" : [ "text", "angular" ],
+"title" : "So, I started a blog...",
+"url" : "https://dev.to/lfccorreia/so-i-created-a-blog-479n",
+"description": "But before we go to that, let's quickly go back to October 2019: that’s when I found out about Svelte...",
+"image": "https://dev.to/social_previews/article/307786.png"
+}, {
 "date" : "2020-04-04",
 "tags" : [ "text", "react" ],
 "title" : "The JavaScript Framework That Puts Web Pages on a Diet",
 "url" : "https://www.wired.com/story/javascript-framework-puts-web-pages-diet/",
 "description": "Svelte, created by a graphics editor for the New York Times, has attracted a following among programmers who want their pages to load faster.",
 "image": "https://media.wired.com/photos/5e8295c6798a15000821fe70/191:100/w_1280,c_limit/svelte-javascript-508482075.jpg"
+}, {
+"date" : "2020-03-26",
+"tags" : [ "text", "vue", "react", "angular" ],
+"title" : "Why you need to start using Svelte Js for web development projects if you still don't",
+"url" : "https://dev.to/vaniukov/why-you-need-to-start-using-svelte-js-for-web-development-projects-if-you-still-don-t-40dh",
+"description": "If you are in web development, you have probably heard about Svelte Js. But you asked, why it is becoming so popular web framework and what benefits it proposes for developers.",
+"image": "https://i.giphy.com/media/3oKIPlLZEbEbacWqOc/giphy.gif"
 }, {
 "date" : "2020-03-25",
 "tags" : [ "text", "react", "angular", "jquery" ],
