@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-05-03",
+"tags" : [ "video" ],
+"title" : "7 Svelte features that bring me joy",
+"url" : "https://www.youtube.com/watch?v=7y9uoRpBU4c",
+"description": "Svelte has a lot of mind-blowing features, but I wanted to make a little demo showing off a few of my favourite features that make programming with Svelte so...",
+"image": "https://i.ytimg.com/vi/7y9uoRpBU4c/hqdefault.jpg"
+}, {
 "date" : "2020-04-13",
 "tags" : [ "text", "angular" ],
 "title" : "So, I started a blog...",
