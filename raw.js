@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-05-08",
+"tags" : [ "text", "vue", "react", "angular" ],
+"title" : "The Reasons why you should learn Svelte & use it for your Applications",
+"url" : "https://dev.to/demonicious_/why-you-should-choose-svelte-for-your-application-a-basic-introduction-275f",
+"description": "The JavaScript community is in some-ways lucky to have a large amount of Libraries, Frameworks &...",
+"image": "https://res.cloudinary.com/practicaldev/image/fetch/s--N7WeR0vu--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--ODSdvItB--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/iy0fbq7l7h9oby53xpmh.jpg"
+}, {
 "date" : "2020-05-03",
 "tags" : [ "video" ],
 "title" : "7 Svelte features that bring me joy",
