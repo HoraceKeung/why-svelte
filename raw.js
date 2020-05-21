@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-05-20",
+"tags" : [ "audio", "sapper", "vue", "react" ],
+"title" : "Scott Teaches Wes Svelte and Sapper — Syntax Podcast 250",
+"url" : "https://syntax.fm/show/250/scott-teaches-wes-svelte-and-sapper",
+"description": "In this episode of Syntax, Scott teaches Wes about Svelte and Sapper — general premise, best practices, and more!",
+"image": "https://syntax.fm/static/syntax-banner.png"
+}, {
 "date" : "2020-05-08",
 "tags" : [ "text", "vue", "react", "angular" ],
 "title" : "The Reasons why you should learn Svelte & use it for your Applications",
