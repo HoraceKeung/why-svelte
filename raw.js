@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-06-22",
+"tags" : [ "text", "sapper", "react" ],
+"title" : "Learning Svelte #1 | why you should too",
+"url" : "https://dev.to/stordahl_/learning-svelte-1-why-you-should-too-648",
+"description": "After spending the last month scared of diving into a javascript framework, this week I found out a...",
+"image": "https://dev.to/social_previews/article/360580.png"
+}, {
 "date" : "2020-05-20",
 "tags" : [ "audio", "sapper", "vue", "react" ],
 "title" : "Scott Teaches Wes Svelte and Sapper — Syntax Podcast 250",
