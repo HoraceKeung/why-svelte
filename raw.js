@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-07-22",
+"tags" : [ "audio", "sapper", "vue", "react" ],
+"title" : "143: Rich Harris - Svelte and Defending the Modern Web | Full Stack Radio",
+"url" : "https://fullstackradio.com/episodes/143",
+"description": "In this episode, Adam talks to Rich Harris about Svelte, and why we should keep pushing forward with the modern web even if it's not perfect yet",
+"image": "https://cdn.simplecast.com/images/05bd32de-6cd4-40f6-b3bd-0bdf6750dd58/f6879864-3fad-4073-8b79-a764a742cd67/1413649662-artwork.jpg"
+}, {
 "date" : "2020-06-22",
 "tags" : [ "text", "sapper", "react" ],
 "title" : "Learning Svelte #1 | why you should too",
