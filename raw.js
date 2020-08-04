@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-07-31",
+"tags" : [ "text", "vue", "react" ],
+"title" : "Is Svelte a cut above React?",
+"url" : "https://medium.com/globant/is-svelte-a-cut-above-react-aa1e4f76b170",
+"description": "You are probably reading the title and nodding your head “One more framework? No way!!” We already have a war going on between the ones…",
+"image": "https://miro.medium.com/max/1200/1*LQ4SEoPetgtR4WUfDPk4IA.jpeg"
+}, {
 "date" : "2020-07-22",
 "tags" : [ "audio", "sapper", "vue", "react" ],
 "title" : "143: Rich Harris - Svelte and Defending the Modern Web | Full Stack Radio",
