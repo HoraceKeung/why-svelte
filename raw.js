@@ -6,6 +6,13 @@ const resources = [{
 "description": "You are probably reading the title and nodding your head “One more framework? No way!!” We already have a war going on between the ones…",
 "image": "https://miro.medium.com/max/1200/1*LQ4SEoPetgtR4WUfDPk4IA.jpeg"
 }, {
+"date" : "2020-07-24",
+"tags" : [ "text", "sapper", "react" ],
+"title" : "Why We Moved From React to Svelte",
+"url" : "https://medium.com/better-programming/why-we-moved-from-react-to-svelte-f20afb1dc5d5",
+"description": "Should JavaScript really be that complicated?",
+"image": "https://miro.medium.com/max/1200/1*RkkH7_sfHKcSQeZuLraqdg.jpeg"
+}, {
 "date" : "2020-07-22",
 "tags" : [ "audio", "sapper", "vue", "react" ],
 "title" : "143: Rich Harris - Svelte and Defending the Modern Web | Full Stack Radio",
