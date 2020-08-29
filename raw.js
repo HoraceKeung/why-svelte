@@ -1,4 +1,11 @@
 const resources = [{
+"date" : "2020-08-28",
+"tags" : [ "audio", "sapper", "vue", "react", "angular" ],
+"title" : "Episode 98: Svelte with Rich Harris | Real Talk JavaScript",
+"url" : "https://realtalkjavascript.simplecast.com/episodes/episode-98-svelte-with-rich-harris",
+"description": "Rich Harris talks with us about why he decided to create Svelte, where the size comes from, what the challenges are with SVG, and what his pitch is for Svelte. Rich also talks about why he wanted to try to build Svelte for folks who aren't as comfortable with React or Vue, and what's next for Svelte...",
+"image": "https://cdn.simplecast.com/images/df5fbc79-a4cb-46e5-9cd9-12d319d7f92b/f18a531a-a915-4698-a53b-f9ee90f5b749/1535465079-artwork.jpg"
+}, {
 "date" : "2020-07-31",
 "tags" : [ "text", "vue", "react" ],
 "title" : "Is Svelte a cut above React?",

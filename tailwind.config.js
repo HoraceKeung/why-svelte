@@ -1,6 +1,7 @@
-let defaultConfig = require('tailwindcss/defaultConfig')
-
 module.exports = {
+	purge: [
+		'./src/**/*.svelte'
+	],
 	theme: {
 		colors: {
 			'transparent': 'transparent',
@@ -16,12 +17,14 @@ module.exports = {
 			...theme('colors'),
 			default: theme('colors.second-10')
 		}),
-		minWidth: {...defaultConfig.theme.minWidth,
-			'8': '2rem'
-		},
 		container: {
 			center: true,
 			padding: '1rem'
+		},
+		extend: {
+			minWidth: {
+				'8': '2rem'
+			}
 		}
 	},
 	variants: {
